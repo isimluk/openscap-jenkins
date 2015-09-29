@@ -144,6 +144,8 @@ Note:
 		+ ``` # yum builddep openscap scap-workbench scap-security-guide scap-security-guide-doc```
 		+ ``` # yum groupinstall "Development Tools"```
 		+ ```# yum install git libtool perl-XML-XPath valgrind sendmail asciidoc```
+	+ asciidoctor on RHEL6
+		+ ``` # yum install rubygems && gem install asciidoc ```
 
 	+ Enable/Start sendmail service ( mitre test requires it)
 		+ ``` # systemctl enable sendmail ; # systemctl start sendmail ```
