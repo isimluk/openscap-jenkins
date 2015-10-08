@@ -143,7 +143,8 @@ Note:
 	+ *Common packages*
 		+ ``` # yum builddep openscap scap-workbench scap-security-guide scap-security-guide-doc```
 		+ ``` # yum groupinstall "Development Tools"```
-		+ ```# yum install git libtool perl-XML-XPath valgrind sendmail asciidoc```
+		+ ``` # yum install git libtool perl-XML-XPath valgrind sendmail asciidoc```
+		+ ``` # yum install bzip2-devel```
 	+ asciidoctor on RHEL6
 		+ ``` # yum install rubygems && gem install asciidoc ```
 
