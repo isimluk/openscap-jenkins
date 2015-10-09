@@ -241,5 +241,16 @@ server {
 
 ## A. Possible issues:
 	+ Subscription issue:
-		- todo
+		- There is problem, that domanins requested due to subscriptions are resolved by "bad" DNS server and we don't get IP adress accessible from out machine
+		- Do you have this problem?
+			+ $ ping xmlrpc.rhn.redhat.com - you will get IP adress, but cannot ping it
+		- Fix:
+			+ /etc/resolv.conf
+				- add 'nameserver 8.8.8.8' to 
+			+ edit /etc/sysconfig/network-scripts/ifcfg-eth0
+				- set 'PEERDNS="no"'
+				- add/replace 'DNS1=8.8.8.8'
+			+ reboot & try $ ping xmlrpc.rhn.redhat.com
+
+
 
