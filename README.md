@@ -145,7 +145,7 @@ Note:
 		+ ``` # yum groupinstall "Development Tools"```
 		+ ``` # yum install git libtool perl-XML-XPath valgrind sendmail asciidoc```
 		+ ``` # yum install bzip2-devel```
-	+ asciidoctor on RHEL6
+	+ asciidoctor on RHEL6/RHEL7
 		+ ``` # yum install rubygems && gem install asciidoc ```
 
 	+ Enable/Start sendmail service ( mitre test requires it)
