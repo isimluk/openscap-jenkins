@@ -147,6 +147,8 @@ Note:
 		+ ``` # yum install bzip2-devel```
 	+ asciidoctor on RHEL6/RHEL7
 		+ ``` # yum install rubygems && gem install asciidoc ```
+		+ ``` # yum install rubygems && gem install asciidoctor ```
+
 
 	+ Enable/Start sendmail service ( mitre test requires it)
 		+ ``` # systemctl enable sendmail ; # systemctl start sendmail ```
