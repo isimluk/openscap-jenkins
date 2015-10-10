@@ -142,6 +142,7 @@ Note:
 		
 	+ *Common packages*
 		+ ``` # yum builddep openscap scap-workbench scap-security-guide scap-security-guide-doc```
+		+ ``` # yum install libcurl-devel libxml2-devel libxslt-devel pcre-devel python-devel``` -- without builddep
 		+ ``` # yum groupinstall "Development Tools"```
 		+ ``` # yum install git libtool perl-XML-XPath valgrind sendmail asciidoc```
 		+ ``` # yum install bzip2-devel```
