@@ -146,6 +146,7 @@ Note:
 		+ ``` # yum groupinstall "Development Tools"```
 		+ ``` # yum install git libtool perl-XML-XPath valgrind sendmail asciidoc```
 		+ ``` # yum install bzip2-devel```
+		+ ``` # yum install libselinux-devel```
 		+ ``` # yum install openscap-scanner``` - required by SSG
 	+ asciidoctor on RHEL6/RHEL7
 		+ ``` # yum install rubygems && gem install asciidoc ```
